@@ -20,7 +20,7 @@ prefix = f'{time.strftime("%Y%m%d")}'
 Path(directory).mkdir(parents=True, exist_ok=True)
 
 
-region = args.region or '0,0,4000,2550'
+region = args.region or '-10000,-10000,20000,20000'
 
 # prev_mins = None
 
